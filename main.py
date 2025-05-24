@@ -10,9 +10,6 @@ def emptyBoard():
     boardtemp = [[0 for i in range(9)] for j in range(9)]
     return boardtemp
 
-    #for row in boardtemp:
-     #   print(row)
-
 #grid[i][j] = x
 def fillinBoard(grid, values):
     for row, col, val in values:
